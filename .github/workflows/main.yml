@@ -18,6 +18,7 @@ jobs:
 
     - name: Generate documentation
       run: |
+        chmod +x bin/illuaminate
         if [ ! -x "bin/illuaminate" ]; then
           echo "illuaminate is not executable!"
           exit 1
