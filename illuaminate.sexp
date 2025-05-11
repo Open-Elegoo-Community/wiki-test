@@ -31,7 +31,7 @@
     (welcome Welcome)
     (filamentProfiles Filament-Profiles)
     (guides Guides)
-    (macro Macros)
+    (macros Macros)
     (mods Modifications)
     (tweaks Tweaks)
     (upgrades Upgrades)
