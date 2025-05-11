@@ -1,0 +1,19 @@
+# Codeowners file
+
+# Global default owners
+* @Open-Elegoo-Community/Contributors
+
+# Github workflow for building the Github Pages website
+/.github/workflows/ @SkyTheCodeMaster @Open-Elegoo-Community/Programmers
+
+# Illuaminate configuration file
+/illuaminate.sexp @SkyTheCodeMaster @Open-Elegoo-Community/Programmers
+
+# Illuaminate html/css injection
+/build @SkyTheCodeMaster @Open-Elegoo-Community/Programmers
+
+# Style and index for the website
+/doc @Open-Elegoo-Community/Contributors @Open-Elegoo-Community/Programmers
+
+# Actual article pages
+/Articles @Open-Elegoo-Community/Contributors
