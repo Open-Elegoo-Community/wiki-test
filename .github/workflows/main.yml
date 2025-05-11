@@ -18,6 +18,10 @@ jobs:
 
     - name: Generate documentation
       run: |
+        if [ ! -x "bin/illuaminate" ]; then
+          echo "illuaminate is not executable!"
+          exit 1
+        fi
         bin/illuaminate doc-gen
         
     - name: Deploy
