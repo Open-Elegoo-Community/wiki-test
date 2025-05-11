@@ -11,6 +11,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: Setup illuaminate
       run: |
+        trap 'echo "Error occurred during setup"; exit $?' ERR
         test -d bin || mkdir bin
         test -f bin/illuaminate || wget -q -Obin/illuaminate https://squiddev.cc/illuaminate/linux-x86-64/illuaminate
         chmod +x bin/illuaminate
