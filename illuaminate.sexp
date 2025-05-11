@@ -2,10 +2,12 @@
 
 (sources
   /Articles/Welcome/
-  /Articles/Modifications/
-  /Articles/Upgrades/
-  /Articles/Tweaks/
+  /Articles/Filament-Profiles
   /Articles/Guides/
+  /Articles/Macros
+  /Articles/Modifications/
+  /Articles/Tweaks/
+  /Articles/Upgrades/
 )
 
 
@@ -27,9 +29,11 @@
 
   (module-kinds
     (welcome Welcome)
-    (mods Modifications)
-    (upgrades Upgrades)
-    (tweaks Tweaks)
+    (filamentProfiles Filament-Profiles)
     (guides Guides)
+    (macro Macros)
+    (mods Modifications)
+    (tweaks Tweaks)
+    (upgrades Upgrades)
   )
 )
