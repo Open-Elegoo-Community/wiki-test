@@ -16,7 +16,7 @@
   (site
     (title "Open Elegoo Community Wiki")
     (logo doc/elegoo.png)
-    (url https://figure_out_domain/)
+    (url https://open-elegoo-community.github.io/)
     (source-link https://github.com/Open-Elegoo-Community/wiki/blob/${commit}/${path}#L${line})
 
     (styles doc/styles.css)
